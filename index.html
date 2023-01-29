@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="./images/logo.svg" alt="logo" id="logo">
+  <section id="card">
+    <div id="data">
+  
+      <!-- section 1 -->
+      
+      <div class="bill">
+          <h3>Bill</h3>
+          <input type="text" name="number" id="bill" class="input-text" required>
+      </div>
+      
+    
+    
+    <!-- section 2-->
+    <div class="section2">
+        <h3>Select Tip %</h3>
+        <div class="select-tip">
+          <input type="button" value="5%" class="btn5%">
+          <input type="button" value="10%" class="btn10%">
+          <input type="button" value="15%" class="btn15%">
+          <input type="button" value="25%" class="btn25%">
+          <input type="button" value="50%" class="btn50%">
+          <input type="text" class="input-text" name="number" placeholder="custom" required>
+        </div>
+    </div>
+      
+    
+    <!-- section 3-->
+    <div class="section3">
+      <div class="number of people">
+        <h3> Number of People</h3>
+        <input type="text" id="people" class="input-text" name="number"  class="input-text" required>
+      </div>
+    </div>
+    </div>
+    
+    
+    <!--section 4-->
+    
+    <div id="result">
+      <div class="tip amount">
+        <h3> Tip Amount</h3>
+        <span>515615</span>
+      </div>
+      
+        
+      <div class="total">
+        <h3>Total</h3>
+        <span>66565</span>
+      </div>
+      
+        <div class="reset">
+          <input type="submit" value="Reset" class="btn50%">
+        </div>
+    </div>
+  </section>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Wassim Hachani</a>.
+  </div>
+</body>
+</html>
